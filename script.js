@@ -38,5 +38,18 @@ function generatePassword() {
   } else {
     console.log(passwordLengthTest);
   }
-  //var specialCharacters = prompt("Which special characters do you want?");
+  var lowerCase = confirm("Which special characters do you want?\nDo you want lowercase?");
+  var upperCase = confirm("Which special characters do you want?\nDo you want uppercase?");
+  var numCase = confirm("Which special characters do you want?\nDo you want numbers?");
+  var specialCase = confirm("Which special characters do you want?\nDo you want special characters?");
+  if (lowerCase == false && upperCase == false && numCase == false && specialCase == false) {
+    alert("Please select at least one special character")
+    var lowerCase = confirm("Which special characters do you want?\nDo you want lowercase?");
+    var upperCase = confirm("Which special characters do you want?\nDo you want uppercase?");
+    var numCase = confirm("Which special characters do you want?\nDo you want numbers?");
+    var specialCase = confirm("Which special characters do you want?\nDo you want special characters?");
+  }
+  return;
+
+  
 }
