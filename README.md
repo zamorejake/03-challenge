@@ -4,11 +4,11 @@
 In this project I had to debug and write the logic for a password generator that took in account how many characters the user wants it and any special characters they may want.
 
 ## Visuals
-![Picture of landing page](https://github.com/zamorejake/03-passwordGenerator/blob/main/assets/pictures/demoSMALLER.png)
+![Picture of landing page](https://github.com/zamorejake/03-passwordGenerator/blob/main/Assets/demoSMALLER.png)
 
 ## Usage/Link
 This project will randomly generate a secure password based on the users criteria.
-![Link](https://zamorejake.github.io/03-passwordGenerator/)
+Here is a link to the working project: https://zamorejake.github.io/03-passwordGenerator/
 
 ## Support
 For help leave a comment on the github!
