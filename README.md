@@ -27,3 +27,7 @@ MIT lisence
 
 ## Project status
 Complete, for the time being.
+
+## Note
+
+For the graders I did take inspiration from this article for the generator part: https://dev.to/code_mystery/random-password-generator-using-javascript-6a. Lines 94-97 in my script.js file.
