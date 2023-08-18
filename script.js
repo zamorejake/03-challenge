@@ -45,7 +45,8 @@ function generatePassword() {
   upperCase ? randomChar += upChar : null;
   numCase ? randomChar += numChar : null;
   specialCase ? randomChar += specChar : null;
-
+  randomChar == "" ? alert("Nothing selected, try again.") : randomChar;
+  
   for (var i = 0; i < passwordLengthTest; i++) {
     var randomGenerator = Math.floor(Math.random() * randomChar.length);
     password += randomChar.substring(randomGenerator , randomGenerator + 1);
